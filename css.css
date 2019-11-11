@@ -1,0 +1,360 @@
+@font-face {
+  font-family: OpenSans;
+  src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+ html {
+    font-size: 14px;
+  }
+
+body {
+  font-family: OpenSans;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  background-color: #272956;
+  min-height: 565px;
+  background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/football_767.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
+
+.header::before {
+  content: " ";
+  background-color: #171435;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.header-flex {
+  display: block;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.header-logo {
+  fill: #fff;
+  width: 9.6rem;
+  margin: 33px auto;
+}
+
+h1,
+h2,
+h6 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+h1 {
+  color: #c0c1c6;
+  display: block;
+  margin-top: 80px;
+}
+
+h2 {
+  margin-bottom: 86px;
+  display: block;
+  padding-left: 44px;
+  color: #fff;
+}
+
+
+.socials {
+  display: flex;
+  align-items: center;
+  background-color: #5e42b0;
+  border-radius: 50px;
+  margin: 0 auto;
+  width: 20rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+  padding-top: 0.57rem;
+  padding-bottom: 0.57rem;
+}
+
+.social-item {
+  fill: #fff;
+  width: 1.8rem;
+  margin-right: 0.5rem;
+}
+
+.description {
+  font-size: 0.57rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.social-discription {
+  font-weight: 700;
+}
+
+h3 {
+  color: #e7e7e7;
+  text-transform: uppercase;
+  font-size: 3.57rem;
+  margin-top: 1.78rem;
+  margin-left: 1.43rem;
+  font-weight: 700;
+}
+
+h4 {
+  display: block;
+  margin-left: 0.64rem;
+  color: #c1c1c1;
+  text-transform: uppercase;
+  font-size: 1.64rem;
+  font-weight: 700;
+}
+
+.content,
+.section-text {
+  padding: 1.43rem 3.93rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.number {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #000;
+}
+
+.items-number::after {
+  content: " ";
+  display: block;
+  width: 1rem;
+  border-bottom: 3px solid #5e42b0;
+}
+
+.item-number::after {
+  content: " ";
+  display: block;
+  width: 1rem;
+  border-bottom: 3px solid #ffffff;
+}
+
+.text,
+.section__title {
+  box-sizing: border-box;
+  font-size: 1.14rem;
+  line-height: 1.28rem;
+  width: 100%;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.content-img {
+  margin: 22px auto -58px auto;
+  display: block;
+}
+
+.section__number {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  position: relative;
+  z-index: 1;
+  display: block;
+  background-color: #5e42b0;
+  padding: 25px 27px;
+  margin-top: -80px;
+}
+
+.section__number::after {
+  content: " ";
+  display: block;
+  background-color: #5e42b0;
+  width: 1rem;
+  border-bottom: 3px solid #8f7bc8;
+}
+
+.section-text {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.first-content {
+  background-color: #fafafa;
+  padding-top: 80px;
+}
+
+.second-content {
+  background-color: #f5f4f9;
+  padding-top: 60px;
+}
+
+.third-content {
+  background-color: #5e42b0;
+  padding-top: 60px;
+}
+
+.third-text {
+  color: #fff;
+}
+
+.item-content {
+  background-color: #090c35;
+  padding-top: 60px;
+}
+
+.item__number {
+  color: #8765dd;
+}
+.item__number::after {
+  content: " ";
+  display: block;
+  width: 1rem;
+  border-bottom: 3px solid #ffffff;
+}
+
+.item-text {
+  font-size: 1.28rem;
+  line-height: 2rem;
+  color: #fff;
+}
+
+img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h5 {
+  margin-top: 23px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #e7e7e7;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  min-height: 565px;
+  background-image: url("https://raw.githubusercontent.com/Vestanu/vesta/master/sources/img/game_767.jpg");
+  background-color: #5812ca;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  padding-top: 98px;
+}
+
+.footer::before {
+  content: " ";
+  background-color: #171435;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.footer-logo {
+  padding: 13px 5px;
+  display: block;
+  fill: #fff;
+  width: 72px;
+  margin: auto;
+  background-color: #543a9f;
+  border-radius: 25%;
+}
+
+.footer-title {
+  margin-top: 57px;
+  margin-bottom: 75px;
+}
+
+.footer-description {
+  color: #9b8ec1;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+  .header {
+    background-image: url("https://raw.githubusercontent.com/Vestanu/vesta/master/sources/img/football_1280.jpg");
+  }
+
+  h1,
+  h2,
+  h6 {
+    font-size: 64px;
+  }
+  
+  .header-flex {
+    margin-left: 80px;
+  }
+
+  .footer {
+    background-image: url("https://raw.githubusercontent.com/Vestanu/vesta/master/sources/img/game_1280.jpg");
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1920px) {
+  .header {
+    background-image: url("https://raw.githubusercontent.com/Vestanu/vesta/master/sources/img/football_1920.jpg");
+  }
+
+  h1,
+  h2,
+  h6 {
+    font-size: 90px;
+  }
+
+  .social-flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .socials {
+    margin: 25px;
+  }
+
+  .header-flex {
+    margin-left: 182px;
+  }
+
+  .options {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+  }
+
+  .footer {
+    background-image: url("https://raw.githubusercontent.com/Vestanu/vesta/master/sources/img/game_1920.jpg");
+  }
+}
