@@ -490,7 +490,11 @@ h5 {
     position: relative;
   }
   
-  .section_number {
+  picture {
+    max-width: 50%
+  }
+  
+  .section__number {
     margin-top: 40px;
     margin-left: -40px;
   }
