@@ -581,6 +581,30 @@ h5 {
     display: flex;
     flex-wrap: wrap;
   }
+  
+  .inner_box {
+    order: 1;
+  }
+  
+  .inner-box {
+    order: 2;
+  }
+  
+  .inner__box {
+    order: 4;
+  }
+  
+  .inner--box {
+    order: 3;
+  }
+  
+  .inner___box {
+    order: 5;
+  }
+  
+  .inner---box {
+    order: 6;
+  }
 
   .footer {
     background-image: url("https://raw.githubusercontent.com/Vestanu/vesta/master/sources/img/game_1920.jpg");
