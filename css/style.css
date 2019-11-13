@@ -25,6 +25,10 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header {
   text-align: center;
   background-color: #272956;
