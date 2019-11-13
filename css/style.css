@@ -59,7 +59,8 @@ a {
   display: block;
   padding-left: 20px;
   text-align: left;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-logo {
@@ -413,7 +414,8 @@ h5 {
  
   .title {
     padding-left: 80px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .section__number {
@@ -566,7 +568,8 @@ h5 {
 
   .title {
     padding-left: 182px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .options {
