@@ -57,8 +57,9 @@ a {
 
 .title {
   display: block;
-  margin-left: 20px;
+  padding-left: 20px;
   text-align: left;
+  margin: 0 auto;
 }
 
 .header-logo {
@@ -411,7 +412,8 @@ h5 {
   }
  
   .title {
-    margin-left: 80px;
+    padding-left: 80px;
+    margin: 0 auto;
   }
 
   .section__number {
@@ -563,7 +565,8 @@ h5 {
   }
 
   .title {
-    margin-left: 182px;
+    padding-left: 182px;
+    margin: 0 auto;
   }
 
   .options {
