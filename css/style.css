@@ -464,11 +464,15 @@ h5 {
     font-size: 36px;
   }
   
-  .item-number::after , .items-number::after , .section__number::after , .item__number::after {
+  .item-number::after , .items-number::after , .item__number::after {
     width: 20px;
     margin-top: 3px;
   }
  
+  .section__number::after {
+    width: 27px;
+  }
+  
    .section__title {
     position: relative;
     margin-left: 20px;
