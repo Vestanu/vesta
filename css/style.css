@@ -117,6 +117,7 @@ h1 {
 
 .social-discription {
   font-weight: 700;
+  display: block;
 }
 
 h3 {
