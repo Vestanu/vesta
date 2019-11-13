@@ -490,6 +490,11 @@ h5 {
     position: relative;
   }
   
+  .section_number {
+    margin-top: 40px;
+    margin-left: -40px;
+  }
+  
    .content-box {
    padding-right: 50%;
     padding-left: 25px;
@@ -508,13 +513,8 @@ h5 {
      
   }
   
-  picture {
-    max-width: 50%;
-  }
-  
   img {
   object-fit: cover;
-  max-width: 50%;
   height: auto;
   display: block;
     margin: 0;
