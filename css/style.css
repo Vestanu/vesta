@@ -51,7 +51,7 @@ body {
   z-index: -1;
 }
 
-.header-flex {
+.title {
   display: block;
   margin-left: 20px;
   text-align: left;
@@ -64,7 +64,7 @@ body {
 }
 
 h1,
-h2,
+.title__subtitle,
 h6 {
   font-size: 2rem;
   text-transform: uppercase;
@@ -77,7 +77,7 @@ h1 {
   margin-top: 80px;
 }
 
-h2 {
+.title__subtitle {
   margin-bottom: 86px;
   display: block;
   padding-left: 44px;
@@ -319,7 +319,7 @@ h5 {
   
   
   h1,
-  h2 {
+  .title__subtitle {
     font-size: 64px;
   }
   
@@ -405,7 +405,7 @@ h5 {
     padding-top: 60px;
   }
  
-  .header-flex {
+  .title {
     margin-left: 80px;
   }
 
@@ -446,7 +446,7 @@ h5 {
   }
   
   h1,
-  h2,
+  .title__subtitle,
   h6 {
     font-size: 95px;
   }
