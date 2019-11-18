@@ -197,7 +197,7 @@ h4 {
   display: block;
   background-color: #5e42b0;
   padding: 25px 27px;
-  margin-top: -80px;
+  margin-top: -55px;
   width: fit-content;
 }
 
@@ -426,7 +426,7 @@ h5 {
   .section__number {
     padding: 44px;
     font-size: 24px;
-    margin-top: -120px;
+    margin-top: -90px;
     width: fit-content;
   }
   
@@ -585,9 +585,9 @@ h5 {
   justify-content: center;
 }
 	
-  .gallery-row:nth-child(2) {
-		flex-direction: row-reverse;
-	}
+ .gallery-row:nth-child(2) {
+  flex-direction: row-reverse;
+}
   
   .number {
   font-size: 18px;
