@@ -305,6 +305,10 @@ h5 {
   border-radius: 25%;
 }
 
+.wrapper {
+  padding: 0 15px;
+}
+
 .footer-title {
   margin-top: 57px;
   margin-bottom: 75px;
