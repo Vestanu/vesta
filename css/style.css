@@ -270,6 +270,12 @@ h5 {
   color: #e7e7e7;
 }
 
+.gallery-content {
+  margin-bottom: 100px;
+  padding: 0 20px;
+}
+	
+
 .footer {
   width: 100%;
   text-align: center;
@@ -382,6 +388,12 @@ h5 {
     padding-bottom: 37px;
   }
   
+.gallery-content {
+  margin-bottom: 79px;
+  padding-left: 32px;
+  padding-right: 15px;
+}
+	
   .section--title {
     position: relative;
   }
