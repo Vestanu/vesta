@@ -262,6 +262,27 @@ img {
   display: block;
 }
 
+.gallery-row {
+	display: flex;
+}
+
+.gallery-column {
+	width: 50%;
+}
+
+.pic__item {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.gallery-content {
+	background-color: lightgreen;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 h5 {
   margin-top: 23px;
   font-size: 2rem;
@@ -560,6 +581,10 @@ h5 {
     margin-left: 70px;
     margin-bottom: 70px;
   }
+  
+  .gallery-row:nth-child(2) {
+		flex-direction: row-reverse;
+	}
   
   .number {
   font-size: 18px;
