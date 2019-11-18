@@ -198,6 +198,7 @@ h4 {
   background-color: #5e42b0;
   padding: 25px 27px;
   margin-top: -80px;
+  width: fit-content;
 }
 
 .section__number::after {
@@ -423,9 +424,10 @@ h5 {
   }
 
   .section__number {
-  padding: 44px;
+    padding: 44px;
     font-size: 24px;
     margin-top: -120px;
+    width: fit-content;
   }
   
   .section__number::after {
@@ -518,6 +520,7 @@ h5 {
     margin-left: -102px;
     padding: 60px 70px;
     font-size: 24px;
+    height: fit-content;
   }
   
    .content-box {
