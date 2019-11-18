@@ -511,6 +511,10 @@ h5 {
     position: relative;
   }
   
+ .section__title-items {
+   padding-right: 178px;
+ }
+	
   picture {
     max-width: 50%
   }
@@ -569,6 +573,7 @@ h5 {
     margin-top: -95px;
     margin-left: 70px;
     margin-bottom: 70px;
+    font-size: 80px;
   }
   
 	
