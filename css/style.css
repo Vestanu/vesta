@@ -536,14 +536,8 @@ h5 {
     padding: 60px 70px;
     font-size: 24px;
     position: absolute;
-  }
-  
-  .number-items {
-    margin-left: -90px;
-  }
-	
-  .number-item {
-    margin-right: -90px;
+    top: 25%;
+    left: calc(50% - 90px);
   }
 	
    .content-box {
@@ -590,7 +584,8 @@ h5 {
   
 	
 .gallery-row {
-	display: flex;
+  display: flex;	
+  position: relative;
 }
 
 .gallery-column {
@@ -607,7 +602,6 @@ h5 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
 }
 	
  .gallery-row:nth-child(2) {
