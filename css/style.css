@@ -29,6 +29,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  background-color: #382d58;
+}
+
 .header {
   text-align: center;
   background-color: #272956;
@@ -342,7 +346,11 @@ h5 {
   h3 , h5 {
     font-size: 80px;
   }
-  
+	
+  .social-item {
+    width: 45px;	  
+  }
+	
   h4 {
     font-size: 32px;
   }
@@ -476,6 +484,10 @@ h5 {
 
    h4 {
     font-size: 36px;
+  }
+	
+  .social-item {
+    width: 45px;	  
   }
   
   .item-number::after , .items-number::after , .item__number::after {
