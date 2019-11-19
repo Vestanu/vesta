@@ -667,6 +667,10 @@ h5 {
     background-image: url("./sources/img/game_1920.jpg");
   }
 	
+  .footer-wrapper {
+    display: flex;
+  }
+	
   h6 {
     font-size: 80px;
   }
