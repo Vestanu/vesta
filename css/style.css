@@ -535,7 +535,6 @@ h5 {
     margin-top: 40px;
     padding: 60px 70px;
     font-size: 24px;
-    height: fit-content;
     position: absolute;
   }
   
@@ -609,7 +608,6 @@ h5 {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  padding: 0;
 }
 	
  .gallery-row:nth-child(2) {
