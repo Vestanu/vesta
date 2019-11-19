@@ -609,6 +609,7 @@ h5 {
   flex-direction: column;
   justify-content: center;
   position: relative;
+  padding: 0;
 }
 	
  .gallery-row:nth-child(2) {
