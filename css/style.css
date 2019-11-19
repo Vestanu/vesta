@@ -333,9 +333,11 @@ h5 {
   .header {
     background-image: url("./sources/img/football_1280.jpg");
   }
+	
 .header-logo {
   width: 210px;
-  }
+  margin: 53px auto;
+}
   
   
   h1,
@@ -475,6 +477,7 @@ h5 {
 
   .header-logo {
   width: 190px;
+  margin: 60px auto;
   }
   
   h1,
