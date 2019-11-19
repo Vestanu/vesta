@@ -536,6 +536,7 @@ h5 {
     padding: 60px 70px;
     font-size: 24px;
     height: fit-content;
+    position: absolute;
   }
   
   .number-items {
@@ -607,7 +608,7 @@ h5 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-right: -90px;
+  position: relative;
 }
 	
  .gallery-row:nth-child(2) {
