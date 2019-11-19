@@ -1,13 +1,13 @@
 @font-face {
   font-family: OpenSans;
-  src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff");
+  src: url("./sources/fonts/OpenSans-Regular.woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: OpenSans;
-  src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff");
+  src: url("./sources/fonts/OpenSans-Bold.woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -33,7 +33,7 @@ a {
   text-align: center;
   background-color: #272956;
   min-height: 565px;
-  background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/football_767.jpg);
+  background-image: url("./sources/img/football_767.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -278,7 +278,7 @@ h5 {
   width: 100%;
   text-align: center;
   min-height: 565px;
-  background-image: url("https://raw.githubusercontent.com/Vestanu/vesta/master/sources/img/game_767.jpg");
+  background-image: url("./sources/img/game_767.jpg");
   background-color: #5812ca;
   background-repeat: no-repeat;
   background-position: center center;
@@ -327,7 +327,7 @@ h5 {
 
 @media (min-width: 641px) and (max-width: 960px) {
   .header {
-    background-image: url("https://raw.githubusercontent.com/Vestanu/vesta/master/sources/img/football_1280.jpg");
+    background-image: url("./sources/img/football_1280.jpg");
   }
 .header-logo {
   width: 210px;
@@ -446,7 +446,7 @@ h5 {
   
   
   .footer {
-    background-image: url("https://raw.githubusercontent.com/Vestanu/vesta/master/sources/img/game_1280.jpg");
+    background-image: url("./sources/img/game_1280.jpg");
   }
   
   h6 {
@@ -462,7 +462,7 @@ h5 {
 
 @media (min-width: 961px) and (max-width: 1920px) {
   .header {
-    background-image: url("https://raw.githubusercontent.com/Vestanu/vesta/master/sources/img/football_1920.jpg");
+    background-image: url("./sources/img/football_1920.jpg");
   }
 
   .header-logo {
@@ -648,7 +648,7 @@ h5 {
     flex-wrap: wrap;
   }
   .footer {
-    background-image: url("https://raw.githubusercontent.com/Vestanu/vesta/master/sources/img/game_1920.jpg");
+    background-image: url("./sources/img/game_1920.jpg");
   }
 }
 
