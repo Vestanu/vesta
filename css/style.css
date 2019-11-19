@@ -613,7 +613,7 @@ h5 {
 }
 
 .gallery-content {
-  widht: 50%;
+  width: 50%;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
