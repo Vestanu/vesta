@@ -669,6 +669,13 @@ h5 {
 	
   .footer-wrapper {
     display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+	
+  .footer-logo {
+    margin: 83px 0;
+    width: 138px;
   }
 	
   h6 {
