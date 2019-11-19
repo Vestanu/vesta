@@ -575,8 +575,9 @@ h5 {
   }
   
   h5 {
-    margin-top: -95px;
-    margin-left: 70px;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 172px;
     margin-bottom: 70px;
     font-size: 80px;
   }
@@ -601,6 +602,7 @@ h5 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-height: 300px;
 }
 	
  .gallery-row:nth-child(2) {
