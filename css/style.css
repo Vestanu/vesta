@@ -56,10 +56,9 @@ a {
 }
 
 .title {
-  padding-left: 20px;
   text-align: left;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .header-logo {
@@ -429,6 +428,8 @@ h5 {
  
   .title {
     padding-left: 80px;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
   .section__number {
@@ -638,6 +639,8 @@ h5 {
 
   .title {
     padding-left: 182px;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
   .options {
