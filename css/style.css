@@ -526,7 +526,7 @@ h5 {
   
  .section__title-items {
    padding-right: 9%;
-   margin-left: 100px;
+   margin-left: 110px;
    margin-bottom: 100px;
  }
 	
@@ -579,11 +579,12 @@ h5 {
   }
   
   h5 {
-    margin-top: 33%;
+    margin-top: 35%;
     margin-left: 120px;
     margin-right: 172px;
     margin-bottom: 5%;
     font-size: 80px;
+	  line-height: 60px;
   }
   
 	
@@ -606,7 +607,7 @@ h5 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-height: 280px;
+  max-height: 240px;
 }
 	
  .gallery-row:nth-child(2) {
