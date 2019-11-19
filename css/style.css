@@ -529,6 +529,11 @@ h5 {
    margin-left: 110px;
    margin-bottom: 100px;
  }
+
+ .section__title-item {
+   margin-left: 5%;
+   padding-right: 15px;
+  }
 	
   picture {
     max-width: 50%
@@ -588,7 +593,8 @@ h5 {
   }
   
   h5.gallery-item {
-    margin-left: 20px
+    margin-left: 5%;
+    margin-top: 30%
   }
 	
 .gallery-row {
