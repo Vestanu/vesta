@@ -523,7 +523,9 @@ h5 {
   }
   
  .section__title-items {
-   padding-right: 178px;
+   padding-right: 9%;
+   margin-left: 100px;
+   margin-bottom: 100px;
  }
 	
   picture {
@@ -535,7 +537,7 @@ h5 {
     padding: 60px 70px;
     font-size: 24px;
     position: absolute;
-    top: 15%;
+    top: 12%;
     left: calc(50% - 90px);
   }
 	
@@ -575,10 +577,10 @@ h5 {
   }
   
   h5 {
-    margin-top: 25%;
+    margin-top: 30%;
     margin-left: 120px;
     margin-right: 172px;
-    margin-bottom: 70px;
+    margin-bottom: 5%;
     font-size: 80px;
   }
   
