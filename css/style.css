@@ -470,9 +470,8 @@ h5 {
   }
   
   h1,
-  .title__subtitle,
-  h6 {
-    font-size: 95px;
+  .title__subtitle {
+    font-size: 90px;
   }
 
    h4 {
@@ -651,6 +650,14 @@ h5 {
   }
   .footer {
     background-image: url("./sources/img/game_1920.jpg");
+  }
+	
+  h6 {
+    font-size: 80px;
+  }
+	
+  .footer-description {
+    font-size: 30px;
   }
 }
 
