@@ -203,7 +203,7 @@ h4 {
   width: fit-content;
   display: inline-block;
   left: 20px;
-  top: 40px;
+  top: -10px;
 }
 
 .section__number::after {
